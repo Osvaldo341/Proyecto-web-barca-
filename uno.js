@@ -1,12 +1,4 @@
 function quizz() {
-    const respuestas = {
-        p1: "True",
-        p2: "True",
-        p3: "False",
-        p4: "True",
-        p5: "False"
-    };
-
     let cd = 0;
     // Pregunta 1
     if (document.getElementById('p1_true').checked) cd++;
